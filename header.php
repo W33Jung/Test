@@ -19,33 +19,31 @@
 	<?php wp_head(); ?>
 </head>
 
-<div class="nav-top">
-  <img src="<?php echo get_template_directory_uri()?>/images/rainbow.png?>">
-</div>
-<nav class="navbar fixed-top navbar-expand-lg fixed-top">
-	<div class="container">
-  		<a class="navbar-brand" href="<?php echo""?>"><img src="<?php echo get_template_directory_uri()?>/images/logo.png"></a>
-  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    		<span class="navbar-toggler-icon"></span>
-  		</button>
-  	<div class="collapse navbar-collapse nav-resync" id="navbarNav">
-  		<ul class="navbar-nav ml-auto">
+<span class="nav-top"></span>
+<nav class="navbar fixed-top navbar-expand-lg fixed-top text-uppercase">
+  <div class="container">
+    <a class="navbar-brand" href="<?php echo""?>"><img src="<?php echo get_template_directory_uri()?>/images/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse nav-resync" id="navbarTogglerDemo02">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">ALL COURSES</a>
+          <a class="nav-link" href="#">all courses</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">SCHOLARSHIPS</a>
+          <a class="nav-link" href="#">scholarships</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT</a>
+          <a class="nav-link" href="#">about</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">MY ACCOUNT</a>
+          <a class="nav-link" href="#">my account</a>
         </li>
         <li class="nav-item">
           <a class="nav-link image" href="<?php ""?>" style="padding-top: 0px; padding-bottom: 0px;"><img src="<?php echo get_template_directory_uri()?>/images/facebook-icon.png"></a>
         </li>
-    	</ul>
+      </ul>
     </div>
- 	</div>
+  </div>
 </nav>
